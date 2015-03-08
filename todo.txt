@@ -1,6 +1,21 @@
 # Conection
-- carregar conf de bancp
-- verificar se conexao existe
-- se existir finaliza 
-- criar conexao 
-- retorna um objeto de conection
++ carregar conf de bancp
++ verificar se conexao existe
++ se existir finaliza
++ criar conexao
++ retorna um objeto de conection
+
+# Token
++ criar
+- Verificar
+- Update
+
+# Data
+- COmparar datas
+
+# vCard
+- add
+- del
+- find
+- edit
+
