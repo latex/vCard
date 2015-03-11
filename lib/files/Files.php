@@ -8,7 +8,9 @@
 class Files{
 
 	public  $filename = '';
-
+        /***
+         * @TODO terminar funcao;
+         */
 	public function exist(){
 		if (file_exists($this->filename)) {
 			return TRUE;

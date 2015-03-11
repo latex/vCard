@@ -99,4 +99,10 @@ class User {
     {
     	$token = md5(uniqid(mt_rand(), TRUE));
     }
+
+    public function add(){
+        //receber parametros
+
+        //inserir no banco
+    }
 }

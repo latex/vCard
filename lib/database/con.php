@@ -2,7 +2,7 @@
 
 namespace lib\vcard\database;
 
-class conection e{
+class conection {
         var $con;
         var $state;
         var $time;
