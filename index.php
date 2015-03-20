@@ -1,23 +1,8 @@
-<html>
-    <head>
-        <title>leando</title>
-        <style>
-            body{
-                background-color: #99ccff;
-            }
-        </style>
-    </head>
-</html>
-
 <?php
 
-require_once "lib/config/config.inc.php";
+include "app/utils/autoload.php";
+$user = new UserModel();
 
+$user->name = leandro;
 
-
-/***
- * @TODO Cadastro de usuario;
- */
-/**
- * @TODO Login de usuario;
- */
+echo $user->name;
